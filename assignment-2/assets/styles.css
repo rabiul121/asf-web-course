@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Six Week Holiday DEMO';
+    src: url('../assets/fonts/SixWeekHolidayDEMO-Regular.woff2') format('woff2'),
+        url('../assets/fonts/SixWeekHolidayDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Six Week Holiday DEMO', cursive;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 25px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    background: darkcyan;
+    color: #000;
+    padding: 10px;
+    font-weight: 700;
+}
+
+p.para {
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 0 10px;
+}
